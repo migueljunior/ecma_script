@@ -73,3 +73,55 @@ console.log(globalVar);
 //Estas dos lineas siguientes daran error, pues se añadio const para que una variable sea inmutable.
 const a = 'b';
 a = 'a';
+
+//Objetos
+let name1 = 'junior';
+let age1 = 32;
+
+//Anteriormente
+obj = { name: name1, age: age1};
+
+//ES6
+obj2 = { name1, age1 };
+console.log(obj);
+console.log(obj2);
+
+// Arrow funtions
+const names = [
+    { name: 'Junior', age: 32},
+    { name: 'Vivian', age: 29}
+];
+
+//Anteriormente
+let listOfNames = names.map(function (item) {
+    console.log(item.name);
+});
+
+//ES6
+let listOfNames2 = names.map(item => console.log(item.name));
+
+//Otra forma de las arrow funtions
+const listOfNames3 = (name, age, country) => {
+    ...
+};
+
+const listOfNames4 = name => {
+    ...
+};
+
+const square = num => num * num;
+
+//Promesas
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if(true) {
+            resolve('Hey!')
+        } else {
+            reject('Ups!')
+        }
+    });
+};
+
+helloPromise()
+    .then(response => console.log(response))
+    .catch(error => console.log(error));

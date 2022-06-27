@@ -33,3 +33,10 @@ Ahora existe una manera diferente de hacer multilinea en ES6.
 La destructuracion ahora existe una manera mas sencilla en el cual solo se utiliza let con llaves a continuación y llamando a los atributos del objeto.
 
 Ahora es necesario utilizar let en lugar de var, pues con let solo esta disponible en el scope a la cual es llamado.
+
+# Arrow Funtions, Promesas, y Parámetros en objetos.
+Ahora existe una propiedad de objetos mejorada.
+
+Arrow functions vienen a solucionar un problema de una sitaxis mas reducida, las arrow functions son funciones anonimas.
+
+Las promesas son utilizadas para el asincronismo, pues estas solucionan el problema de los call backs, el llamado calback hell.
