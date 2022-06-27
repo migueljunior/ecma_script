@@ -21,3 +21,55 @@ let epicPhrase = hello + ' ' + world;
 console.log(epicPhrase);
 let epicPhrase2 = `${hello} ${world}`;
 console.log(epicPhrase2);
+
+//Multilinea
+// Anteriormente
+let lorem = 'No gastes más tiempo argumentando acerca de lo que debe ser un buen hombre. Sé uno. \n'
++ 'Cuánto tiempo ahorra el que no se da la vuelta para ver lo que su vecino dice, hace o piensa.';
+console.log(lorem);
+
+// En ES6
+let lorem2 = `En ningún lugar puede un hombre encontrar un retiro más tranquilo e imperturbable que en su propia alma.
+Todo lo que escuchamos es una opinión, no un hecho. Todo lo que vemos es una perspectiva, no la verdad.`;
+console.log(lorem2);
+
+//Desestructuracion de elementos
+let person = {
+    'name': 'Junior',
+    'age': 32,
+    'country': 'BO'
+}
+
+// Anteriormente
+console.log(person.name, person.age, person.country);
+
+// ES6
+let { name, age, country} = person;
+console.log(name, age, country);
+
+//Operador de propagacion
+let team1 = ['Junior','Enrique','Andres'];
+let team2 = ['Vivian','Julia','Alizon'];
+
+// Anteriormente
+let education1 = ['David','Junior','Enrique','Andres','Vivian','Julia','Alizon'];
+// En ES6
+let education = ['David', ...team1, ...team2];
+console.log(education);
+
+//Uso de let
+{
+    var globalVar = 'Global var';
+}
+
+{
+    let globalLet = 'Global let';
+    console.log(globalLet);// Este si funciona
+}
+
+console.log(globalVar);
+//console.log(globalLet);// Este no funciona
+
+//Estas dos lineas siguientes daran error, pues se añadio const para que una variable sea inmutable.
+const a = 'b';
+a = 'a';

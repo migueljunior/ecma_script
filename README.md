@@ -26,3 +26,10 @@ En funciones se pueden establecer valores por defecto.
 Para ejecutar bloques de codigo se puede instalar el plugin Code Runner.
 
 Para la concatenación en ES6 se puede utilizar las comillas francesas que son las comillas simples al reves.
+
+# Let y CONST, Multilínea, Spread Operator y Desestructuración
+Ahora existe una manera diferente de hacer multilinea en ES6.
+
+La destructuracion ahora existe una manera mas sencilla en el cual solo se utiliza let con llaves a continuación y llamando a los atributos del objeto.
+
+Ahora es necesario utilizar let en lugar de var, pues con let solo esta disponible en el scope a la cual es llamado.
