@@ -40,3 +40,27 @@ Ahora existe una propiedad de objetos mejorada.
 Arrow functions vienen a solucionar un problema de una sitaxis mas reducida, las arrow functions son funciones anonimas.
 
 Las promesas son utilizadas para el asincronismo, pues estas solucionan el problema de los call backs, el llamado calback hell.
+
+# Clases, Módulos y Generadores
+Una forma de manejar los objetos con una sitaxis mas facil y tambien manejar la programación orientada a objetos de manera mas sencilla.
+
+En esta nueva version se puede trabajar con modulos que se pueden importar de otros archivos.
+
+Para los generadores se pueden utilizar para algoritmos peculires como ser la serie Fibonaci.
+
+# ES7
+Incroporaron 2 cambios particulares, incluyeron el valor de includes y operadores de forma exponencial.
+
+Includes nos permite saber si existe un elemento dentro de un valor (array)
+
+# ES8
+Incluyeron nuevas caracteristicas como async y await.
+
+# ES9
+Lanzada en Junio del 2018, algo que insertaron es el operador de reposo que puede extraer las propiedades de un objeto que aun no se a construido.
+
+# ES10
+Lanzada en Junio del 2019
+
+# ES11
+Se agregaron caracteristicas como dynamic import, big number entre otros.
