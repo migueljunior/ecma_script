@@ -64,3 +64,11 @@ Lanzada en Junio del 2019
 
 # ES11
 Se agregaron caracteristicas como dynamic import, big number entre otros.
+
+# ES12
+Se agregaron remplaceAll, metodos privados para clases tanto para getter y setters. Implementación de una nueva funcion para promesas el cual va ser promiseAny y operadores de asignación logica.
+
+En las expresiones y operadores se agrego lo siguiente:
+- Asignación AND lógico
+- Asignación OR lógico
+- Asignación de anulación lógica
