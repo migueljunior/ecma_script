@@ -72,3 +72,12 @@ En las expresiones y operadores se agrego lo siguiente:
 - Asignación AND lógico
 - Asignación OR lógico
 - Asignación de anulación lógica
+
+# Mantente Actualizado
+El sitio para encontrar la informacion del comite evaluador es el siguiente [link](https://tc39.es)
+Para aprobarse las caracteristicas tienen que pasar el siguiente flujo:
+ 1. Stage 0: Idea.
+ 1. Stage 1: Proposal.
+ 1. Stage 2: Draft.
+ 1. Stage 3: Candidate.
+ 1. Stage 4: Ready.
